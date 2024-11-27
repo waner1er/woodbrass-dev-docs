@@ -1,0 +1,8 @@
+/*@import './tiptap/plugin.css';*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.filament-tiptap-grid-builder {
+    display: grid;
+}
