@@ -19,6 +19,8 @@ services:
             IGNITION_LOCAL_SITES_PATH: '${PWD}'
         volumes:
             - '.:/var/www/html'
+            - './node_modules:/var/www/html/node_modules'
+
         networks:
             - sail
         depends_on:
